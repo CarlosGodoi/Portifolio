@@ -5,8 +5,10 @@ import {
 	TooltipProvider,
 	TooltipTrigger,
 } from '../../components/ui/tooltip';
+import { useTranslation } from 'react-i18next';
 
 export const AssistantButton = () => {
+	const { t } = useTranslation();
 	return (
 		<div className="fixed md:bottom-20 right-6 z-50 flex flex-col items-center space-y-2 bottom-6">
 			<TooltipProvider>
@@ -22,7 +24,7 @@ export const AssistantButton = () => {
 					</TooltipTrigger>
 					<TooltipContent>
 						<p className="p-1 text-base text-zinc-800 font-medium">
-							Eu sou Devizin, assistente virtual. Posso ajudá-lo?
+							{t('chatbot.title')}
 						</p>
 					</TooltipContent>
 				</Tooltip>

@@ -56,6 +56,21 @@
 		"section-contact": {
 			"title": "Contact",
 			"description": "Contact me via email, LinkedIn or WhatsApp. I am available to discuss new opportunities and projects."
+		},
+
+		"chatbot": {
+			"title": "Hello! How can I help you?"
+		},
+
+		"chat": {
+			"title": "Assistant",
+			"text-apresentation": "Hello! I'm Devizinhu, virtual assistant, ask me something about Carlos' resume so I can help you! 😊",
+			"placeholder": "Enter your question...",
+			"button-send": "Send"
+		},
+
+		"footer": {
+			"text": "© 2025 Carlos E. Godoi - All rights reserved"
 		}
 	}
 }

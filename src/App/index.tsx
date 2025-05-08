@@ -136,7 +136,7 @@ function Home() {
 						className="flex items-center gap-2 hover:text-green-500 transition-colors"
 					>
 						<FaWhatsapp size={30} />
-						<p className="text-base md:text-2xl text-gray-300">WhatsApp</p>
+						<p className="text-base md:text-lg text-gray-300">WhatsApp</p>
 					</a>
 
 					<a
@@ -146,7 +146,7 @@ function Home() {
 						className="flex items-center gap-2 hover:text-blue-500 transition-colors"
 					>
 						<FaLinkedin size={30} />
-						<p className="text-base md:text-2xl text-gray-300">Linkedin</p>
+						<p className="text-base md:text-lg text-gray-300">Linkedin</p>
 					</a>
 				</div>
 			</section>

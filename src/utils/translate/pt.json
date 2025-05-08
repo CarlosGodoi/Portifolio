@@ -56,6 +56,21 @@
 		"section-contact": {
 			"title": "Contato",
 			"description": "Entre em contato comigo através do meu e-mail, LinkedIn ou até mesmo pelo WhatsApp. Estou disponível para discutir novas oportunidades e projetos."
+		},
+
+		"chatbot": {
+			"title": "Olá! como posso ajudá-lo?"
+		},
+
+		"chat": {
+			"title": "Assistente",
+			"text-apresentation": "Olá! Eu sou Devizinhu assitente virtual, pergunte algo sobre o currículo do Carlos para eu poder ajuda-lo! 😊",
+			"placeholder": "Digite sua pergunta...",
+			"button-send": "Enviar"
+		},
+
+		"footer": {
+			"text": "© 2025 Carlos E. Godoi - Todos os direitos resevados"
 		}
 	}
 }
