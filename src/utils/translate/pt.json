@@ -1,0 +1,61 @@
+{
+	"translation": {
+		"header": {
+			"title": "Carlos Godoi",
+			"nav-about": "Sobre",
+			"nav-projects": "Projetos",
+			"nav-contact": "Contato",
+			"nav-technologies": "Tecnologias"
+		},
+		"main": {
+			"title": "Olá, eu sou o Carlos Eduardo Godoi",
+			"text-apresentation": "Sou Desenvolvedor Frontend, apaixonado por criar interfaces dinâmicas, intuitivas e responsivas para web. Meu foco é providenciar uma experiência de usuário excepcional, utilizando tecnologias modernas e melhores práticas de desenvolvimento. Se você está procurando um desenvolvedor que possa trazer suas ideias à vida, entre em contato! Estou disponível para colaborar em projetos emocionantes e inovadores.",
+			"button-CV": "Currículo"
+		},
+		"section-projects": {
+			"title": "PROJETOS EM DESTAQUE",
+			"description": "Aqui estão alguns dos projetos selecionados que demonstram minha paixão pelo desenvolvimento front-end.",
+
+			"card-1": {
+				"title": "Sistema de agendamento e gestão de consultas, para clínicas médicas.",
+				"description": "Este projeto foi desenvolvido,com a idéia de facilitar o agendamento de consultas e a gestão das consultas agendas,permitindo um melhor controle e organização para clínicas médicas.Além do agendamento de consultas. o sistema também permite o cadastro de médicos, pacientes e especialidades médicas, além de um dashboard com gráficos e relatórios das consultas agendadas e canceladas, permitindo assim um melhor controle e gestão das consultas.",
+				"image-title": "Agendamed",
+				"alt-image": "Imagem da página de login do projeto Agendamed",
+				"informations-project-title": "INFORMAÇÕES DO PROJETO",
+				"informations-project-year": "Ano",
+				"informations-project-date": "2025",
+				"informations-project-role": "Papel",
+				"informations-project-developer": "Desenvolvedor Fullstack",
+				"link-live-project": "DEMONSTRAÇÃO AO VIVO"
+			},
+
+			"card-2": {
+				"title": "Sistema para adminstração de imóveis, para imobiliárias.",
+				"description": "Este projeto foi desenvolvido, com propósito de criar um ecosistema para gestão de imovés, onde o usuário pode cadastrar imoveis na base, e disponibiliza-los para venda ou locação. O sistema também permite a criação de cadastro de clientes na tela de login, onde o cliente após cadastrar-se, poderá então navegar pelo sistema e visualizar os imoveis disponiveis para vena ou locação, além de poder fazer contato com os corretores da imobiliária.",
+				"image-title": "Prestige Imobiliária",
+				"alt-image": "Imagem da página de login do projeto Prestige imobiliária",
+				"informations-project-title": "INFORMAÇÕES DO PROJETO",
+				"informations-project-year": "Ano",
+				"informations-project-date": "2024",
+				"informations-project-role": "Papel",
+				"informations-project-developer": "Desenvolvedor Fullstack",
+				"link-live-project": "DEMONSTRAÇÃO AO VIVO"
+			}
+		},
+
+		"section-technologies": {
+			"title": "Principais Tecnologias",
+			"description": "Como desenvolvedor web, tenho proeficiencia na stack javascript, para o frontend possuo experiência com React.js, Next.js e todo seu ecossistema de bibliotecas Zod, Tailwindcss, Chackra UI, React Hookform entre outros. Para o backend possuo experiência com Node js, Express, Prisma, Fastify e Postgresql. Além disso possuo experiência com o desenvolvimento de APIs REST e Docker."
+		},
+
+		"section-about": {
+			"title": "Sobre",
+			"description": "Sou desenvolvedor web, formado em Análise e Desenvolvimento de Sistemas pela Universidade Ritter dos Reis. Atuo na área de tecnologia desde 2008, quando iniciei minha carreira em infraestrutura. Trabalhei praticamente 11 anos nesta área e, em 2019, decidi mudar para a área de desenvolvimento, onde encontrei minha verdadeira paixão e vocação. Atuei em uma fábrica de software durante 2 anos e 4 meses como desenvolvedor front-end, onde adquiri experiência com React.js, Next.js e todo o seu ecossistema. Participei de projetos de empresas como Ouro e Prata, Crédito Real e Essent Jus. Durante este período, também adquiri conhecimentos e experiências com backend, colaborando em projetos com Node.js, Express e Prisma. Possuo experiência atuando em times ágeis e autogerenciáveis. Dentre minhas habilidades estão trabalho em equipe, flexibilidade, adaptabilidade, proatividade e comunicação. Estou sempre buscando evoluir técnica e pessoalmente, além de enfrentar novos desafios."
+		},
+
+		"section-contact": {
+			"title": "Contato",
+			"description": "Entre em contato comigo através do meu e-mail, LinkedIn ou até mesmo pelo WhatsApp. Estou disponível para discutir novas oportunidades e projetos."
+		}
+	}
+}

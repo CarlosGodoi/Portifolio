@@ -1,0 +1,61 @@
+{
+	"translation": {
+		"header": {
+			"title": "Carlos Godoi",
+			"nav-about": "About",
+			"nav-projects": "Projects",
+			"nav-contact": "Contact",
+			"nav-technologies": "Technologies"
+		},
+		"main": {
+			"title": "Hello, I'm Carlos Eduardo Godoi",
+			"text-apresentation": "I'm a Frontend Developer, passionate about creating dynamic, intuitive and responsive web interfaces. My focus is to provide an exceptional user experience, using modern technologies and development best practices. If you're looking for a developer who can bring your ideas to life, get in touch! I'm available to collaborate on exciting and innovative projects.",
+			"button-CV": "Curriculum"
+		},
+		"section-projects": {
+			"title": "FEATURED PROJECTS",
+			"description": "Here are some of the selected projects that demonstrate my passion for front-end development.",
+
+			"card-1": {
+				"title": "Appointment scheduling and management system for medical clinics.",
+				"description": "This project was developed with the idea of ​​facilitating the scheduling of appointments and the management of appointments, allowing better control and organization for medical clinics. In addition to scheduling appointments, the system also allows the registration of doctors, patients and medical specialties, as well as a dashboard with graphs and reports of scheduled and canceled appointments, thus allowing better control and management of appointments.",
+				"image-title": "Agendamed",
+				"alt-image": "Image of the Agendamed project login page",
+				"informations-project-title": "PROJECT INFORMATION",
+				"informations-project-year": "Year",
+				"informations-project-date": "2025",
+				"informations-project-role": "Role",
+				"informations-project-developer": "Fullstack Developer",
+				"link-live-project": "LIVE DEMO"
+			},
+
+			"card-2": {
+				"title": "Property management system for real estate agencies.",
+				"description": "This project was developed with the purpose of creating an ecosystem for property management, where the user can register properties in the database and make them available for sale or rent. The system also allows the creation of a customer registry on the login screen, where the customer, after registering, can then navigate through the system and view the properties available for sale or rent, in addition to being able to contact the real estate agents.",
+				"image-title": "Prestige Real Estate",
+				"alt-image": "Image of the login page of the Prestige Real Estate project",
+				"informations-project-title": "INFORMAÇÕES DO PROJETO",
+				"informations-project-year": "Year",
+				"informations-project-date": "2024",
+				"informations-project-role": "Role",
+				"informations-project-developer": "Desenvolvedor Fullstack",
+				"link-live-project": "LIVE DEMO"
+			}
+		},
+
+		"section-technologies": {
+			"title": "Main Technologies",
+			"description": "As a web developer, I am proficient in the javascript stack, for the frontend I have experience with React.js, Next.js and its entire ecosystem of libraries Zod, Tailwindcss, Chackra UI, React Hookform among others. For the backend I have experience with Node js, Express, Prisma, Fastify and Postgresql. In addition, I have experience with the development of REST APIs and Docker."
+		},
+
+		"section-about": {
+			"title": "About",
+			"description": "I am a web developer with a degree in Systems Analysis and Development from Ritter dos Reis University. I have been working in the technology field since 2008, when I started my career in infrastructure. I worked in this field for almost 11 years and, in 2019, I decided to move to the development field, where I found my true passion and calling. I worked in a software factory for 2 years and 4 months as a front-end developer, where I gained experience with React.js, Next.js and their entire ecosystem. I participated in projects for companies such as Ouro e Prata, Crédito Real and Essent Jus. During this period, I also acquired knowledge and experience with backend, collaborating on projects with Node.js, Express and Prisma. I have experience working in agile and self-managed teams. My skills include teamwork, flexibility, adaptability, proactivity and communication. I am always seeking to evolve technically and personally, in addition to facing new challenges."
+		},
+
+		"section-contact": {
+			"title": "Contact",
+			"description": "Contact me via email, LinkedIn or WhatsApp. I am available to discuss new opportunities and projects."
+		}
+	}
+}
