@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { sendMessageToBot } from '../../service/chatbot';
 import { useTranslation } from 'react-i18next';
+import LoadingDots from '../loading';
 
 export const ChatWindow = ({ onClose }: { onClose: () => void }) => {
 	const { t, i18n } = useTranslation();
@@ -11,6 +12,7 @@ export const ChatWindow = ({ onClose }: { onClose: () => void }) => {
 		},
 	]);
 	const [input, setInput] = useState('');
+	const [isLoading, setIsLoading] = useState(false);
 
 	// Atualiza a mensagem de apresentação quando o idioma muda
 	useEffect(() => {
@@ -34,6 +36,7 @@ export const ChatWindow = ({ onClose }: { onClose: () => void }) => {
 		const userMessage = { sender: 'user', text: input };
 		setMessages((prev) => [...prev, userMessage]);
 		setInput('');
+		setIsLoading(true);
 
 		try {
 			const botReply = await sendMessageToBot(input);
@@ -44,6 +47,8 @@ export const ChatWindow = ({ onClose }: { onClose: () => void }) => {
 				{ sender: 'bot', text: 'Erro ao responder sua pergunta.' },
 			]);
 			console.error('Erro ao enviar mensagem para o bot:', error);
+		} finally {
+			setIsLoading(false);
 		}
 	};
 
@@ -68,6 +73,7 @@ export const ChatWindow = ({ onClose }: { onClose: () => void }) => {
 						{msg.text}
 					</div>
 				))}
+				{isLoading && <LoadingDots />}
 			</div>
 			<div className="p-2 border-t flex gap-2">
 				<input
@@ -76,10 +82,16 @@ export const ChatWindow = ({ onClose }: { onClose: () => void }) => {
 					onKeyDown={(e) => e.key === 'Enter' && handleSend()}
 					className="flex-1 h-10 text-zinc-800 text-sm border rounded px-2 py-1"
 					placeholder={t('chat.placeholder')}
+					disabled={isLoading}
 				/>
 				<button
 					onClick={handleSend}
-					className="bg-primary text-zinc-800 px-3 py-1 rounded text-sm"
+					className={`px-3 py-1 rounded text-sm ${
+						isLoading
+							? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+							: 'bg-primary text-zinc-800 cursor-pointer'
+					}`}
+					disabled={isLoading}
 				>
 					{t('chat.button-send')}
 				</button>
