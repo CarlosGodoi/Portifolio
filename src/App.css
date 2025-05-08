@@ -1,0 +1,140 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+#root {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Suas cores personalizadas */
+:root {
+	/* Suas cores originais */
+	--my-color-primary: #d3e97a;
+	--my-color-secondary: #000000;
+	--my-color-gray-08: #141414;
+	--my-color-gray-10: #1a1a1a;
+	--my-color-gray-15: #262626;
+	--my-color-gray-20: #333333;
+	--my-color-gray-30: #4d4d4d;
+	--my-color-gray-40: #666666;
+	--my-color-gray-50: #808080;
+	--my-color-gray-60: #999999;
+
+	/* Configurações do shadcn/ui, mas alteradas para usar suas cores */
+	--radius: 0.625rem;
+	--background: var(--my-color-secondary);
+	--foreground: var(--my-color-primary);
+	--card: var(--my-color-gray-10);
+	--card-foreground: var(--my-color-primary);
+	--popover: var(--my-color-gray-10);
+	--popover-foreground: var(--my-color-primary);
+	--primary: var(--my-color-primary);
+	--primary-foreground: var(--my-color-secondary);
+	--secondary: var(--my-color-gray-20);
+	--secondary-foreground: var(--my-color-primary);
+	--muted: var(--my-color-gray-15);
+	--muted-foreground: var(--my-color-gray-50);
+	--accent: var(--my-color-gray-15);
+	--accent-foreground: var(--my-color-primary);
+	--destructive: oklch(0.577 0.245 27.325);
+	--border: var(--my-color-gray-20);
+	--input: var(--my-color-gray-15);
+	--ring: var(--my-color-primary);
+}
+
+@theme {
+	----breakpoint-xr: 23.44rem;
+}
+/* Modo escuro, se você precisar */
+/.dark {
+	--background: var(--my-color-secondary);
+	--foreground: var(--my-color-primary);
+	--card: var(--my-color-gray-10);
+	--card-foreground: var(--my-color-primary);
+	--popover: var(--my-color-gray-10);
+	--popover-foreground: var(--my-color-primary);
+	--primary: var(--my-color-primary);
+	--primary-foreground: var(--my-color-secondary);
+	--secondary: var(--my-color-gray-15);
+	--secondary-foreground: var(--my-color-primary);
+	--muted: var(--my-color-gray-15);
+	--muted-foreground: var(--my-color-gray-50);
+	--accent: var(--my-color-gray-20);
+	--accent-foreground: var(--my-color-primary);
+	--destructive: oklch(0.704 0.191 22.216);
+	--border: var(--my-color-gray-30);
+	--input: var(--my-color-gray-20);
+	--ring: var(--my-color-primary);
+}
+
+/* Variáveis inline para o shadcn/ui */
+@theme inline {
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-card: var(--card);
+	--color-card-foreground: var(--card-foreground);
+	--color-popover: var(--popover);
+	--color-popover-foreground: var(--popover-foreground);
+	--color-primary: var(--primary);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-secondary: var(--secondary);
+	--color-secondary-foreground: var(--secondary-foreground);
+	--color-muted: var(--muted);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-accent: var(--accent);
+	--color-accent-foreground: var(--accent-foreground);
+	--color-destructive: var(--destructive);
+	--color-border: var(--border);
+	--color-input: var(--input);
+	--color-ring: var(--ring);
+	--animate-orbit: orbit calc(var(--duration) * 1s) linear infinite;
+	@keyframes orbit {
+		0% {
+			transform: rotate(calc(var(--angle) * 1deg))
+				translateY(calc(var(--radius) * 1px)) rotate(calc(var(--angle) * -1deg));
+		}
+		100% {
+			transform: rotate(calc(var(--angle) * 1deg + 360deg))
+				translateY(calc(var(--radius) * 1px))
+				rotate(calc((var(--angle) * -1deg) - 360deg));
+		}
+	}
+	--animate-marquee: marquee var(--duration) infinite linear;
+	--animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+	@keyframes marquee {
+		from {
+			transform: translateX(0);
+		}
+		to {
+			transform: translateX(calc(-100% - var(--gap)));
+		}
+	}
+	@keyframes marquee-vertical {
+		from {
+			transform: translateY(0);
+		}
+		to {
+			transform: translateY(calc(-100% - var(--gap)));
+		}
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border outline-ring/50;
+	}
+	body {
+		@apply bg-background text-foreground;
+	}
+}
