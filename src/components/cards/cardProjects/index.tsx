@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 export const CardProjects = () => {
 	const { t } = useTranslation();
 	return (
-		<section className="flex flex-col">
+		<>
 			{/* Primeiro Projeto */}
 			<div className="w-full flex flex-col md:flex-row md:justify-between mt-8 md:mt-16">
 				{/* Imagem do Projeto */}
@@ -24,7 +24,7 @@ export const CardProjects = () => {
 				</div>
 
 				{/* Descrição do Projeto */}
-				<div className="flex w-full md:w-1/2 justify-center gap-2 md:gap-4 px-2 md:px-5 py-3 md:py-7 mt-8">
+				<div className="flex w-full md:w-1/2 justify-center gap-2 md:gap-4 px-2 md:px-5 py-3 md:py-7">
 					<div className="flex flex-col w-full md:max-w-11/12">
 						<h3 className="text-white text-2xl md:text-3xl font-medium text-center md:text-left">
 							{t('section-projects.card-1.title')}
@@ -33,7 +33,7 @@ export const CardProjects = () => {
 							{t('section-projects.card-1.description')}
 						</p>
 
-						<div className="flex flex-col mt-4 md:mt-5">
+						<div className="flex flex-col mt-10 md:mt-5">
 							<h3 className="text-base text-white font-semibold text-left">
 								{t('section-projects.card-1.informations-project-title')}
 							</h3>
@@ -102,7 +102,7 @@ export const CardProjects = () => {
 							{t('section-projects.card-2.description')}
 						</p>
 
-						<div className="flex flex-col mt-4 md:mt-5">
+						<div className="flex flex-col mt-10 md:mt-5">
 							<h3 className="text-base text-white font-semibold text-left">
 								{t('section-projects.card-2.informations-project-title')}
 							</h3>
@@ -145,6 +145,6 @@ export const CardProjects = () => {
 					</div>
 				</div>
 			</div>
-		</section>
+		</>
 	);
 };

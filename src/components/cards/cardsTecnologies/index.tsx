@@ -55,7 +55,7 @@ const TechCard = ({ logo, name, experience }: TechCardProps) => {
 	return (
 		<figure
 			className={cn(
-				'relative h-48 w-72 cursor-pointer overflow-hidden rounded-xl border p-4 transition-all duration-300',
+				'relative h-48 w-60 md:w-72 cursor-pointer overflow-hidden rounded-xl border p-4 transition-all duration-300',
 				// light styles
 				'border-gray-950/[.1] bg-white hover:bg-zinc-200 hover:shadow-lg',
 				// dark styles
@@ -153,8 +153,8 @@ export default function TechStackMarquee() {
 				))}
 			</Marquee>
 
-			<div className="pointer-events-none absolute inset-y-0 left-0 w-1/6 bg-black"></div>
-			<div className="pointer-events-none absolute inset-y-0 right-0 w-1/6 bg-black"></div>
+			<div className="pointer-events-none absolute inset-y-0 left-0 w-fit md:w-1/6 bg-black"></div>
+			<div className="pointer-events-none absolute inset-y-0 right-0 w-fit md:w-1/6 bg-black"></div>
 		</div>
 	);
 }
