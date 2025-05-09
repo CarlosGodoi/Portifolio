@@ -12,7 +12,7 @@ export default function LoadingDots() {
 	}, []);
 
 	return (
-		<div className="flex flex-col items-end p-6 bg-gray-100 rounded-full">
+		<div className="flex flex-col items-end p-6">
 			<div className="p-3 rounded-md bg-gray-200 inline-block">
 				<div className="flex space-x-1">
 					<div

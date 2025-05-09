@@ -64,7 +64,7 @@
 
 		"chat": {
 			"title": "Assistente",
-			"text-apresentation": "Olá! Eu sou Devizinhu assitente virtual, pergunte algo sobre o currículo do Carlos para eu poder ajuda-lo! 😊",
+			"text-apresentation": "Eu sou Devizinhu assitente virtual, pergunte algo sobre o currículo do Carlos para eu poder ajuda-lo! 😊",
 			"placeholder": "Digite sua pergunta...",
 			"button-send": "Enviar"
 		},
