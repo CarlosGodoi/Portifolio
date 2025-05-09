@@ -9,7 +9,7 @@
 		},
 		"main": {
 			"title": "Hello, I'm Carlos Eduardo Godoi",
-			"text-apresentation": "I'm a Frontend Developer, passionate about creating dynamic, intuitive and responsive web interfaces. My focus is to provide an exceptional user experience, using modern technologies and development best practices. If you're looking for a developer who can bring your ideas to life, get in touch! I'm available to collaborate on exciting and innovative projects.",
+			"text-apresentation": "I'm a Fullstack Developer with a focus on Front-end, passionate about creating dynamic, intuitive and responsive web interfaces. My focus is to provide an exceptional user experience, using modern technologies and best development practices. If you're looking for a developer who can bring your ideas to life, get in touch! I'm available to collaborate on exciting and innovative projects.",
 			"button-CV": "Curriculum"
 		},
 		"section-projects": {
@@ -50,7 +50,7 @@
 
 		"section-about": {
 			"title": "About",
-			"description": "I am a web developer with a degree in Systems Analysis and Development from Ritter dos Reis University. I have been working in the technology field since 2008, when I started my career in infrastructure. I worked in this field for almost 11 years and, in 2019, I decided to move to the development field, where I found my true passion and calling. I worked in a software factory for 2 years and 4 months as a front-end developer, where I gained experience with React.js, Next.js and their entire ecosystem. I participated in projects for companies such as Ouro e Prata, Crédito Real and Essent Jus. During this period, I also acquired knowledge and experience with backend, collaborating on projects with Node.js, Express and Prisma. I have experience working in agile and self-managed teams. My skills include teamwork, flexibility, adaptability, proactivity and communication. I am always seeking to evolve technically and personally, in addition to facing new challenges."
+			"description": "I am a web developer with a degree in Systems Analysis and Development from Ritter dos Reis University. I have been working in the technology field since 2008, when I started my career in infrastructure. I worked in this field for almost 11 years and, in 2019, I decided to move to the development field, where I found my true passion and calling. I worked in a software factory for 2 years and 4 months as a front-end developer, where I gained experience with React.js, Next.js and their entire ecosystem. I participated in projects for companies such as Ouro e Prata, Crédito Real and Essent Jus. During this period, I also acquired knowledge and experience with backend, collaborating on projects with Node.js, Express and Prisma. I have experience working in agile and self-managed teams. My skills include teamwork, flexibility, adaptability, proactivity and communication. I am always evolving technically and personally, always seeking new challenges for my development as a developer."
 		},
 
 		"section-contact": {

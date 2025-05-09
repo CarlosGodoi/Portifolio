@@ -1,7 +1,8 @@
 import '../App.css';
 import { Divisor } from '../components/divisor';
 import { Header } from '../components/header';
-import Foto from '../assets/teste.jpeg';
+import imgMain from '../assets/img/foto6.jpg';
+import imgAbout from '../assets/img/foto1.jpg';
 import { useTranslation } from 'react-i18next';
 import { ButtonGroup } from '../components/buttonGroup';
 import { CardProjects } from '../components/cards/cardProjects';
@@ -43,7 +44,7 @@ function Home() {
 					<div className="flex w-full md:w-1/2 justify-center items-center">
 						<img
 							className="w-full max-w-[320px] sm:max-w-[400px] md:max-w-[540px] h-auto sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg object-cover"
-							src={Foto}
+							src={imgMain}
 							alt=""
 						/>
 					</div>
@@ -104,7 +105,7 @@ function Home() {
 				<div className="w-full md:w-1/2 flex justify-center items-center">
 					<img
 						className="w-full max-w-xs md:max-w-[540px] h-auto md:h-[700px] rounded-lg object-cover"
-						src={Foto}
+						src={imgAbout}
 						alt="Sobre mim"
 					/>
 				</div>
