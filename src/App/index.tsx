@@ -124,12 +124,16 @@ function Home() {
 				</div>
 
 				<div className="flex flex-col gap-3 mt-10 mb-10">
-					<div className="flex items-center gap-2">
+					<a
+						href="mailto:edu-godoi@hotmail.com"
+						className="flex items-center gap-2 hover:text-white transition-colors"
+					>
 						<MdOutlineEmail size={30} />
 						<p className="text-base md:text-lg text-gray-300">
 							edu-godoi@hotmail.com
 						</p>
-					</div>
+					</a>
+
 					<a
 						href="https://wa.me/5551997216453"
 						target="_blank"
