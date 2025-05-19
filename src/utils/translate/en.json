@@ -18,7 +18,7 @@
 
 			"card-1": {
 				"title": "Appointment scheduling and management system for medical clinics.",
-				"description": "This project was developed with the idea of ​​facilitating the scheduling of appointments and the management of appointments, allowing better control and organization for medical clinics. In addition to scheduling appointments, the system also allows the registration of doctors, patients and medical specialties, as well as a dashboard with graphs and reports of scheduled and canceled appointments, thus allowing better control and management of appointments.",
+				"description": "TThis project was developed with the idea of ​​facilitating the scheduling and management of appointments, allowing better control and organization for medical clinics. In addition to scheduling appointments, the system also allows the registration of doctors, patients and medical specialties. The system has a dashboard with graphs and reports of scheduled and canceled appointments, thus allowing better control and management of appointments.",
 				"image-title": "Agendamed",
 				"alt-image": "Image of the Agendamed project login page",
 				"informations-project-title": "PROJECT INFORMATION",
@@ -31,7 +31,7 @@
 
 			"card-2": {
 				"title": "Property management system for real estate agencies.",
-				"description": "This project was developed with the purpose of creating an ecosystem for property management, where the user can register properties in the database and make them available for sale or rent. The system also allows the creation of a customer registry on the login screen, where the customer, after registering, can then navigate through the system and view the properties available for sale or rent, in addition to being able to contact the real estate agents.",
+				"description": "This project was developed with the purpose of creating an ecosystem for property management, where a user with a broker profile can register properties in the database and make them available for sale or rent. The system also has a client registration feature, through a link to access the form on the login screen, where the client, after registering, can then navigate through the system and view the properties available for sale or rent, in addition to being able to contact the real estate brokers.",
 				"image-title": "Prestige Real Estate",
 				"alt-image": "Image of the login page of the Prestige Real Estate project",
 				"informations-project-title": "INFORMAÇÕES DO PROJETO",
