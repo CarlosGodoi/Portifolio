@@ -50,7 +50,7 @@
 
 		"section-about": {
 			"title": "Sobre",
-			"description": "Sou desenvolvedor web, formado em Análise e Desenvolvimento de Sistemas pela Universidade Ritter dos Reis. Atuo na área de tecnologia desde 2008, quando iniciei minha carreira em infraestrutura. Trabalhei praticamente 11 anos nesta área e, em 2019, decidi mudar para a área de desenvolvimento, onde encontrei minha verdadeira paixão e vocação. Atuei em uma fábrica de software durante 2 anos e 4 meses como desenvolvedor front-end, onde adquiri experiência com React.js, Next.js e todo o seu ecossistema. Participei de projetos de empresas como Ouro e Prata, Crédito Real e Essent Jus. Durante este período, também adquiri conhecimentos e experiências com backend, colaborando em projetos com Node.js, Express e Prisma. Possuo experiência atuando em times ágeis e autogerenciáveis. Dentre minhas habilidades estão trabalho em equipe, flexibilidade, adaptabilidade, proatividade e comunicação. Estou sempre evoluindo técnicamente e pessoalmente, buscando sempre novos desfios para minha evolução como desenvolvedor."
+			"description": "Sou desenvolvedor web, formado em Análise e Desenvolvimento de Sistemas pela Universidade Ritter dos Reis. Atuo na área de tecnologia desde 2008, quando iniciei minha carreira em infraestrutura. Trabalhei praticamente 11 anos nesta área e, em 2019, decidi mudar para a área de desenvolvimento, onde encontrei minha verdadeira paixão e vocação. Atuei em uma fábrica de software durante 2 anos e 4 meses como desenvolvedor front-end, onde adquiri experiência com React.js, Next.js e todo o seu ecossistema. Participei de projetos de empresas como Ouro e Prata, Crédito Real e Essent Jus. Durante este período, também adquiri conhecimentos e experiências com backend, colaborando em projetos com Node.js, Express e Prisma. Possuo experiência atuando em times ágeis e autogerenciáveis. Dentre minhas habilidades estão trabalho em equipe, flexibilidade, adaptabilidade, proatividade e comunicação. Estou sempre evoluindo técnicamente e pessoalmente, buscando sempre novos desafios para minha evolução como desenvolvedor."
 		},
 
 		"section-contact": {
@@ -70,7 +70,7 @@
 		},
 
 		"footer": {
-			"text": "© 2025 Carlos E. Godoi - Todos os direitos resevados"
+			"text": "© 2025 Carlos E. Godoi - Todos os direitos reservados"
 		}
 	}
 }
