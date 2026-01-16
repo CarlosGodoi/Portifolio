@@ -15,6 +15,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { AssistantButton } from '../components/assistant/assitantButton';
 import { ChatWindow } from '../components/assistant/chatWindow';
 import { useState } from 'react';
+import ProfileCard from '@/components/ProfileCard';
 
 function Home() {
 	const [chatOpen, setChatOpen] = useState(false);
@@ -41,11 +42,14 @@ function Home() {
 							<ButtonGroup />
 						</div>
 					</div>
-					<div className="flex w-full md:w-1/2 justify-center items-center">
+					<div
+						className="w-[70%] sm:w-[60%] md:w-[80%] lg:w-[70%] max-w-[420px] aspect-square rounded-full p-[5px]
+        bg-gradient-to-tr from-indigo-500 via-purple-400 to-blue-500 flex items-center justify-center mx-auto md:mx-0"
+					>
 						<img
-							className="w-full max-w-[320px] sm:max-w-[400px] md:max-w-[540px] h-auto sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg object-cover"
 							src={imgMain}
 							alt=""
+							className="w-full h-full rounded-full object-cover bg-white"
 						/>
 					</div>
 				</div>
@@ -90,24 +94,52 @@ function Home() {
 			<Divisor />
 
 			<section
-				className="w-full flex flex-col md:flex-row px-6 md:px-10 py-10 mb-14 gap-8"
 				id="about"
+				className="
+    w-full
+    flex
+    flex-col
+    md:flex-row
+    items-center
+    md:items-stretch
+    px-6
+    md:px-10
+    py-10
+    mb-14
+    gap-8
+  "
 			>
+				{/* TEXTO */}
 				<div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left">
 					<h2 className="text-3xl md:text-5xl text-white font-bold">
 						{t('section-about.title')}
 					</h2>
+
 					<p className="text-base md:text-2xl text-gray-300 mt-4 md:mt-6">
 						{t('section-about.description')}
 					</p>
 				</div>
 
-				<div className="w-full md:w-1/2 flex justify-center items-center">
-					<img
-						className="w-full max-w-xs md:max-w-[540px] h-auto md:h-[700px] rounded-lg object-cover"
-						src={imgAbout}
-						alt="Sobre mim"
-					/>
+				{/* CARD */}
+				<div className="w-full md:w-1/2 flex justify-center">
+					<div className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+						<ProfileCard
+							name="Carlos Godoi"
+							title="Front-End Developer"
+							handle="carlosgodoi"
+							status="Online"
+							contactText="Entrar em contato"
+							avatarUrl={imgAbout}
+							showUserInfo
+							enableTilt
+							enableMobileTilt={false}
+							onContactClick={() =>
+								document
+									.getElementById('contact')
+									?.scrollIntoView({ behavior: 'smooth' })
+							}
+						/>
+					</div>
 				</div>
 			</section>
 
