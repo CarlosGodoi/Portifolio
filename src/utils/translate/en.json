@@ -17,7 +17,7 @@
 			"description": "Here are some of the selected projects that demonstrate my passion for front-end development.",
 
 			"card-1": {
-				"title": "This project was developed with the idea of ​​facilitating the scheduling and management of appointments, allowing for better control and organization for medical clinics. In addition to scheduling appointments, the system also allows for the registration of doctors, patients, and medical specialties. The system has a dashboard with graphs and reports of scheduled and canceled appointments, thus allowing for better control and management of appointments. <br/>Obs: If you wish to access it for testing, the email is: operator@operator.com and the password is: Operator@123",
+				"title": "This project was developed with the idea of ​​facilitating the scheduling and management of appointments, allowing for better control and organization for medical clinics. In addition to scheduling appointments, the system also allows for the registration of doctors, patients, and medical specialties. The system has a dashboard with graphs and reports of scheduled and canceled appointments, thus allowing for better control and management of appointments. Obs: If you wish to access it for testing, the email is: operator@operator.com and the password is: Operator@123",
 				"image-title": "Agendamed",
 				"alt-image": "Image of the Agendamed project login page",
 				"informations-project-title": "PROJECT INFORMATION",
@@ -30,7 +30,7 @@
 
 			"card-2": {
 				"title": "Property management system for real estate agencies.",
-				"description": "This project was developed with the purpose of creating an ecosystem for property management, where a user with a real estate agent profile can register properties in the database and make them available for sale or rent. The system also includes client registration, through a link to a form on the login screen, where after registering, the client can then navigate the system and view the properties available for sale or rent, as well as contact the real estate agents.<br/>Obs:If you wish to access it for testing, you can register a new user or log in with the email: corretor@corretor.com and password: Corretor@123",
+				"description": "This project was developed with the purpose of creating an ecosystem for property management, where a user with a real estate agent profile can register properties in the database and make them available for sale or rent. The system also includes client registration, through a link to a form on the login screen, where after registering, the client can then navigate the system and view the properties available for sale or rent, as well as contact the real estate agents. Obs:If you wish to access it for testing, you can register a new user or log in with the email: corretor@corretor.com and password: Corretor@123",
 				"image-title": "Prestige Real Estate",
 				"alt-image": "Image of the login page of the Prestige Real Estate project",
 				"informations-project-title": "INFORMAÇÕES DO PROJETO",
