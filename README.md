@@ -1,4 +1,4 @@
-# 🚀 Portfólio - Eduardo
+# 🚀 Portfólio
 
 Um portfólio web moderno e interativo construído com React, TypeScript e Vite. Este projeto foi desenvolvido para apresentar habilidades, projetos e tecnologias de forma visual e elegante, com suporte a múltiplos idiomas e um assistente AI integrado.
 
