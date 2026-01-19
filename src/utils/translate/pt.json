@@ -18,8 +18,7 @@
 
 			"card-1": {
 				"title": "Sistema de agendamento e gestão de consultas, para clínicas médicas.",
-				"description": "Este projeto foi desenvolvido,com a idéia de facilitar o agendamento e a gestão das consultas, permitindo um melhor controle e organização para clínicas médicas.Além do agendamento de consultas, o sistema também permite o cadastro de médicos, pacientes e especialidades médicas, o sistema possui um dashboard com gráficos e relatórios das consultas agendadas e canceladas, permitindo assim um melhor controle e gestão das consultas.
-				obs: Caso você deseje acessar para teste é e-mail: operator@operator.com e senha:Operator@123",
+				"description": "Este projeto foi desenvolvido,com a idéia de facilitar o agendamento e a gestão das consultas, permitindo um melhor controle e organização para clínicas médicas.Além do agendamento de consultas, o sistema também permite o cadastro de médicos, pacientes e especialidades médicas, o sistema possui um dashboard com gráficos e relatórios das consultas agendadas e canceladas, permitindo assim um melhor controle e gestão das consultas. \nObs: Caso você deseje acessar para teste é e-mail: operator@operator.com e senha:Operator@123",
 				"image-title": "Agendamed",
 				"alt-image": "Imagem da página de login do projeto Agendamed",
 				"informations-project-title": "INFORMAÇÕES DO PROJETO",
@@ -32,8 +31,7 @@
 
 			"card-2": {
 				"title": "Sistema para adminstração de imóveis, para imobiliárias.",
-				"description": "Este projeto foi desenvolvido, com propósito de criar um ecosistema para gestão de imovés, onde um usuário com perfil corretor pode cadastrar imoveis na base, e disponibiliza-los para venda ou locação. O sistema também possui o cadastramento de clientes, através de um link de acesso ao formulário na tela de login, onde o cliente após cadastrar-se, poderá então navegar pelo sistema e visualizar os imoveis disponiveis para venda ou locação, além de poder fazer contato com os corretores da imobiliária.
-				Obs:Caso você deseje acessar para teste, você pode cadastrar um novo usuário ou acessar com e-mail: corretor@corretor.com e senha:Corretor@123",
+				"description": "Este projeto foi desenvolvido, com propósito de criar um ecosistema para gestão de imovés, onde um usuário com perfil corretor pode cadastrar imoveis na base, e disponibiliza-los para venda ou locação. O sistema também possui o cadastramento de clientes, através de um link de acesso ao formulário na tela de login, onde o cliente após cadastrar-se, poderá então navegar pelo sistema e visualizar os imoveis disponiveis para venda ou locação, além de poder fazer contato com os corretores da imobiliária. \nObs:Caso você deseje acessar para teste, você pode cadastrar um novo usuário ou acessar com e-mail: corretor@corretor.com e senha:Corretor@123",
 				"image-title": "Prestige Imobiliária",
 				"alt-image": "Imagem da página de login do projeto Prestige imobiliária",
 				"informations-project-title": "INFORMAÇÕES DO PROJETO",
